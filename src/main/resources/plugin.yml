@@ -1,0 +1,35 @@
+name: Teleport
+version: '${project.version}'
+main: net.mckitsu.teleport.Teleport
+api-version: 1.13
+
+commands:
+  tpa:
+    description: To teleport to player
+    usage: 用法:/<command> 玩家ID
+
+  tpaccept:
+    description: To accept teleport request
+    usage: 用法:/<command>
+
+  tpdeny:
+    description: to deny teleport request
+    usage: 用法:/<command>
+
+  tok:
+    description: to accept teleport request
+    usage: 用法:/<command>
+
+  tno:
+    description: to deny teleport request
+    usage: 用法:/<command>
+
+  tpahere:
+    description: let player teleport to you
+    usage: 用法:/<command> 玩家ID
+
+  tpcancel:
+    description: to cancel teleport request
+    usage: 用法:/<command>
+
+
